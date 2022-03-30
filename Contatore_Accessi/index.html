@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=1, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: antiquewhite;
+            text-align: center;
+        }
+        #subtitle{
+            font-size: 12px;
+            font-style: oblique;
+        }
+        #title{
+            font-size: 40px;
+            font-weight: bold;
+            
+        }
+        #centraldiv{
+            margin-left: 35%;
+            margin-right: 35%;
+            border: 2px solid crimson;
+        }
+        #campi{
+            font-size: 20px;
+            font-weight: bolder;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="title">Login</h1>
+    <br>
+    <p id="subtitle">per favore inserisca le credenziali</p>
+    <br>
+    <form method="post" action="login.php">
+        <div id="centraldiv">
+            <p id="campi">Nome <input type="text" name="nome"></p>
+            <br>
+            <p id="campi">Password <input type="password" name="password"></p>
+            <p><input type="submit"></p>
+        </div>
+    </form>
+</body>
+</html>
